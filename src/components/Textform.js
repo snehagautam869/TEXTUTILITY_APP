@@ -29,11 +29,8 @@ export default function Textform(props) {
   }
   const handlelcopyClick=()=>
   {
-    console.log("I am copy");
-    var text = document.getElementById("textbox");
-    text.select();
-    navigator.clipboard.writeText(text.value);
-    document.getSelection().removeAllRanges();
+    // console.log("I am copy");
+    navigator.clipboard.writeText(text);
     props.showAlert("Copied to ClipBoard!","success");
   }
   const handlextraspaces=()=>
@@ -60,7 +57,7 @@ export default function Textform(props) {
     </div>
     <div className="container my-3"  style={{color:props.mode === 'dark'?'white':'#042743'}}>
       <h2>Your text summary</h2>
-      <p>{text.split(" ").filter((element)=>
+      <p>{text.split(/\s+/).filter((element)=> // (/\s+/)=> it means that wide space with new lines one or more than one ,it is a regular expression syntax
       {
         return element.length!==0
       }).length} words and {text.length} characters </p>
