@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TEXTUTILITY_APP/static/css/main.c0d410fb.chunk.css",
+    "main.js": "/TEXTUTILITY_APP/static/js/main.e44e5d1c.chunk.js",
+    "main.js.map": "/TEXTUTILITY_APP/static/js/main.e44e5d1c.chunk.js.map",
+    "runtime-main.js": "/TEXTUTILITY_APP/static/js/runtime-main.4942b03d.js",
+    "runtime-main.js.map": "/TEXTUTILITY_APP/static/js/runtime-main.4942b03d.js.map",
+    "static/js/2.e2ecdddf.chunk.js": "/TEXTUTILITY_APP/static/js/2.e2ecdddf.chunk.js",
+    "static/js/2.e2ecdddf.chunk.js.map": "/TEXTUTILITY_APP/static/js/2.e2ecdddf.chunk.js.map",
+    "static/js/3.3cbdbf8f.chunk.js": "/TEXTUTILITY_APP/static/js/3.3cbdbf8f.chunk.js",
+    "static/js/3.3cbdbf8f.chunk.js.map": "/TEXTUTILITY_APP/static/js/3.3cbdbf8f.chunk.js.map",
+    "index.html": "/TEXTUTILITY_APP/index.html",
+    "precache-manifest.b2288866d1e4ee4a3952fe01c0cd4737.js": "/TEXTUTILITY_APP/precache-manifest.b2288866d1e4ee4a3952fe01c0cd4737.js",
+    "service-worker.js": "/TEXTUTILITY_APP/service-worker.js",
+    "static/css/main.c0d410fb.chunk.css.map": "/TEXTUTILITY_APP/static/css/main.c0d410fb.chunk.css.map",
+    "static/js/2.e2ecdddf.chunk.js.LICENSE.txt": "/TEXTUTILITY_APP/static/js/2.e2ecdddf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4942b03d.js",
+    "static/js/2.e2ecdddf.chunk.js",
+    "static/css/main.c0d410fb.chunk.css",
+    "static/js/main.e44e5d1c.chunk.js"
+  ]
+}
